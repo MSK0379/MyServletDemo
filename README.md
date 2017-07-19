@@ -1,4 +1,5 @@
 # MyServletDemo
+[Servlet基础（一）](http://activeblog.xin/2017/07/19/Servlet%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9Aservlet%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)
 ## Servlet简介
 &emsp;&emsp;Servlet是运行在服务器的java应用程序，负责接受客户端的请求，和数据的处理，然后将结果发送给客户端的技术。  
 &emsp;&emsp;sun公司jdk提供了一个servlet接口，然后提供了该接口的实现类HttpServlet，该Httpservlet类添加了能够解析   http协议的方法，并且重写了servlet接口的servlet方法，该方法中根据用户的http请求来判断是get提交或post提交，若get提交，调用doGet()方法，若post提交，调用doPost()方法
